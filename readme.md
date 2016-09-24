@@ -107,7 +107,7 @@ Sample data for Ajax request is -
 ### Example
 
 ```js
-ajax('http://api.randomuser.me/?results=1')
+ajax('http://api.randomuser.me/')
     .get({
         payload: {
             urlParam: true,
