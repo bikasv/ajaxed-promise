@@ -1,0 +1,25 @@
+{
+  "name": "ajaxed-promise",
+  "version": "0.1.0",
+  "description": "A simple promise based Ajax library",
+  "private": true,
+  "main": "ajaxed-promise.js",
+  "keywords": [],
+  "author": "Bikas Vaibhav <bikasvaibhav@gmail.com> (http://bikasv.com/blog)",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikasv/ajaxed-promise.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bikasv/ajaxed-promise/issues"
+  },
+  "homepage": "https://github.com/bikasv/ajaxed-promise#readme"
+}
