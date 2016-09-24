@@ -2,7 +2,6 @@
   "name": "ajaxed-promise",
   "version": "0.1.0",
   "description": "A simple promise based Ajax library",
-  "private": true,
   "main": "ajaxed-promise.js",
   "keywords": [],
   "author": "Bikas Vaibhav <bikasvaibhav@gmail.com> (http://bikasv.com/blog)",
