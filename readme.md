@@ -11,7 +11,7 @@ The best part about this library is that the order of call doesn't change for us
 Install the package by issue the command - 
 
 ```
-npm i --save-dev ajaxed-promise
+npm install --save ajaxed-promise
 ```
 
 ### Including in code
