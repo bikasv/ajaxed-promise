@@ -1,4 +1,4 @@
-/* library version - 0.1.0 */
+/* library version - 0.2.0 */
 
 module.exports = function(url) {
 	const setup = {
@@ -65,7 +65,7 @@ module.exports = function(url) {
 						}
 
 						xhr.onload = function () {
-							successCallback(formatResponse());
+							successCallback(xhr.responseText);
 						};
 
 						xhr.onerror = function () {
@@ -131,7 +131,7 @@ module.exports = function(url) {
 				} else if(header.toLowerCase().indexOf('xml') > -1) {
 					return JSON.parse(xhr.responseXML);
 				} else {
-					return this.responseText;
+					return xhr.responseText;
 				}
 			}
 		},

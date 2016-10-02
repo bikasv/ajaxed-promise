@@ -1,6 +1,6 @@
 {
   "name": "ajaxed-promise",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A simple promise based Ajax library",
   "main": "ajaxed-promise.js",
   "keywords": [],

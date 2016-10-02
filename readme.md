@@ -121,4 +121,7 @@ ajax('http://api.randomuser.me/')
     });
 ```
 
+### Know issue
+
+* On IE8 and below, raw response is returned. User has to parse the response himself.
 
